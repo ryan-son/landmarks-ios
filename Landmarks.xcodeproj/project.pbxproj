@@ -12,6 +12,7 @@
 		AA3B6E1A28D711F10095797D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3B6E1928D711F10095797D /* Assets.xcassets */; };
 		AA3B6E1D28D711F10095797D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3B6E1C28D711F10095797D /* Preview Assets.xcassets */; };
 		AA3B6E2728D711F10095797D /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B6E2628D711F10095797D /* LandmarksTests.swift */; };
+		AA3B6E4428D728D50095797D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B6E4328D728D50095797D /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		AA3B6E1C28D711F10095797D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA3B6E2228D711F10095797D /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3B6E2628D711F10095797D /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
+		AA3B6E4328D728D50095797D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,9 @@
 		AA3B6E4028D726350095797D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA3B6E1728D711F00095797D /* ContentView.swift */,
+				AA3B6E4228D728C10095797D /* StyleGuide */,
 				AA3B6E3F28D726250095797D /* App */,
+				AA3B6E1728D711F00095797D /* ContentView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -119,6 +122,14 @@
 				AA3B6E1B28D711F10095797D /* Preview Content */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA3B6E4228D728C10095797D /* StyleGuide */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B6E4328D728D50095797D /* CircleImage.swift */,
+			);
+			path = StyleGuide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +234,7 @@
 			files = (
 				AA3B6E1828D711F00095797D /* ContentView.swift in Sources */,
 				AA3B6E1628D711F00095797D /* LandmarksApp.swift in Sources */,
+				AA3B6E4428D728D50095797D /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
