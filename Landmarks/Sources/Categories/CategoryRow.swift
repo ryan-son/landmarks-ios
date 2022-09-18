@@ -10,6 +10,7 @@ import SwiftUI
 struct CategoryRow: View {
   var categoryName: String
   var items: [Landmark]
+  @State var isLandmarkDetailActive: Bool = false
 
   var body: some View {
     VStack(alignment: .leading) {
@@ -21,7 +22,10 @@ struct CategoryRow: View {
       ScrollView(.horizontal, showsIndicators: false) {
         HStack(alignment: .top, spacing: 0) {
           ForEach(items) { landmark in
-            CategoryItem(landmark: landmark)
+            NavigationLink(
+              destination: { LandmarkDetail(landmark: landmark) },
+              label: { CategoryItem(landmark: landmark) }
+            )
           }
         }
       }
