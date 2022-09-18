@@ -12,6 +12,10 @@ final class ModelData: ObservableObject {
   @Published var landmarks: [Landmark] = load("landmarkData.json")
   var hikes: [Hike] = load("hikeData.json")
 
+  var features: [Landmark] {
+    return landmarks.filter(\.isFeatured)
+  }
+
   var categories: [String: [Landmark]] {
     return Dictionary(
       grouping: landmarks,
