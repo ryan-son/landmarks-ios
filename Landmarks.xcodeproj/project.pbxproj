@@ -20,6 +20,7 @@
 		AA3B6E5128D730FB0095797D /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B6E5028D730FB0095797D /* LandmarkRow.swift */; };
 		AA3B6E5528D7324A0095797D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B6E5428D7324A0095797D /* LandmarkList.swift */; };
 		AA3B6E5828D734790095797D /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B6E5728D734790095797D /* LandmarkDetail.swift */; };
+		AA3B6E5A28D74FDC0095797D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B6E5928D74FDC0095797D /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		AA3B6E5028D730FB0095797D /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		AA3B6E5428D7324A0095797D /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		AA3B6E5728D734790095797D /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		AA3B6E5928D74FDC0095797D /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				AA3B6E4328D728D50095797D /* CircleImage.swift */,
+				AA3B6E5928D74FDC0095797D /* FavoriteButton.swift */,
 				AA3B6E4528D72A050095797D /* MapView.swift */,
 			);
 			path = StyleGuide;
@@ -163,8 +166,8 @@
 		AA3B6E5228D731F70095797D /* LandmarkList */ = {
 			isa = PBXGroup;
 			children = (
-				AA3B6E5028D730FB0095797D /* LandmarkRow.swift */,
 				AA3B6E5428D7324A0095797D /* LandmarkList.swift */,
+				AA3B6E5028D730FB0095797D /* LandmarkRow.swift */,
 			);
 			path = LandmarkList;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				AA3B6E1828D711F00095797D /* ContentView.swift in Sources */,
 				AA3B6E4628D72A050095797D /* MapView.swift in Sources */,
 				AA3B6E1628D711F00095797D /* LandmarksApp.swift in Sources */,
+				AA3B6E5A28D74FDC0095797D /* FavoriteButton.swift in Sources */,
 				AA3B6E5528D7324A0095797D /* LandmarkList.swift in Sources */,
 				AA3B6E5828D734790095797D /* LandmarkDetail.swift in Sources */,
 				AA3B6E4428D728D50095797D /* CircleImage.swift in Sources */,
