@@ -11,6 +11,13 @@ import Foundation
 final class ModelData: ObservableObject {
   @Published var landmarks: [Landmark] = load("landmarkData.json")
   var hikes: [Hike] = load("hikeData.json")
+
+  var categories: [String: [Landmark]] {
+    return Dictionary(
+      grouping: landmarks,
+      by: \.category.rawValue
+    )
+  }
 }
 
 
